@@ -5,4 +5,4 @@ RUN mkdir bin
 RUN javac -d bin src/HelloWorld.java
 RUN apt-get update && apt-get install -y vim
 #ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
-ENTRYPOINT ["echo T'as gagné un ours en peluche ! :-D"]
+ENTRYPOINT ["echo T\'as gagne un ours en peluche ! :-D"]
